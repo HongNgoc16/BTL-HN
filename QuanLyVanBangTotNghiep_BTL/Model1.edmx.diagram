@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fdb620a326dd489685bd8dc6649c46b6" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_ChuyenNganh" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_DonViQuanLy" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_KhoaHoc" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_NganhHoc" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_NguoiDung" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_PhanQuyenNguoiDung" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_SinhVien" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.dm_XepLoai" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.nv_DotCapBangTN" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyVanBangModel.nv_VanBangTN" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyVanBangModel.FK_dm_ChuyenNganh_dm_NganhHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVanBangModel.FK_dm_SinhVien_dm_ChuyenNganh" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVanBangModel.FK_dm_SinhVien_dm_DonViQuanLy" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVanBangModel.FK_dm_SinhVien_dm_KhoaHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyVanBangModel.FK_dm_SinhVien_dm_XepLoai" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
